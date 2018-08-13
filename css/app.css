@@ -1,12 +1,63 @@
+body{
+	background-color: #f2f7ff;
+}
+
 #transparent{
 	background-color: transparent;
 }
 
+.grid-container{
+	padding-left: 0;
+	padding-right: 0;
+	max-width: 150rem;
+}
+
 .photo-container{
 	height: 100vh;
+	color: #f2f7ff;
+	font-family: 'Oswald';
+}
+
+#photo-title{
+	color: #f2f7ff;
+	font-family: 'Oswald';
+	text-shadow: 2px 2px #005484;
 }
 
 #about-photo{
-	background: url("images/businesschart.png") no-repeat center;
-	background-size: contain;
+	background: url("https://s3.us-east-2.amazonaws.com/cobaltphotos/Homepage/businesschart.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	padding-left:0;
+	padding-right:0;
+	
+}
+
+#projects-photo{
+	background: url("https://s3.us-east-2.amazonaws.com/cobaltphotos/Homepage/agenda-analysis-business-990818.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	/*color: white;*/
+	border: none;
+}
+
+#companies-photo{
+	background: url("https://icdn2.digitaltrends.com/image/ihmc-robotics.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	/*color: white;*/
+	border: none;
+}
+
+#description{
+	margin: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+
 }
