@@ -1,0 +1,12 @@
+#transparent{
+	background-color: transparent;
+}
+
+.photo-container{
+	height: 100vh;
+}
+
+#about-photo{
+	background: url("images/businesschart.png") no-repeat center;
+	background-size: contain;
+}
