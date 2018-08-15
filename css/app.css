@@ -2,8 +2,15 @@ body{
 	background-color: #f2f7ff;
 }
 
-#transparent{
+#top-bar-header{
 	background-color: transparent;
+	font-family: "Oswald";
+}
+
+#top-bar-text{
+	/*color: #f2f7ff;*/
+	font-size: large;
+	padding-right: 50px
 }
 
 .grid-container{
@@ -60,9 +67,9 @@ body{
 }
 
 #description{
-	margin: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 #description-text{
