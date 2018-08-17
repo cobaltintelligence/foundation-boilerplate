@@ -12,7 +12,9 @@ In order to download Foundation, follow the link above. No accounts need to be c
 
 This website was created based off of the "Agency" template, found [here](https://foundation.zurb.com/templates.html). In order to download this template as well as the other seven provided, the user must sign up using an active email address. 
 
-You can find further documentation on Foundation [here](https://github.com/zurb/foundation-sites).
+You can find further documentation on Foundation [here](https://foundation.zurb.com/sites/docs/).
+
 ## Contributing
+[Contributing to Foundation](https://github.com/zurb/foundation-sites/blob/develop/CONTRIBUTING.md).
 
 ## Deployment
